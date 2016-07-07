@@ -17,7 +17,8 @@ CREATE TABLE DM_DUMMY
  COL2           VARCHAR2(3)   NOT NULL,
  DIM_CREATED_TSTP                DATE,
  DIM_UPDATED_TSTP                DATE,
- DIM_LOAD_ID                     NUMBER(10)
+ DIM_LOAD_ID                     NUMBER(10),
+DIM_LOAD_ID_1                    NUMBER(10)
  )             
 TABLESPACE DATA2 
 STORAGE    (
